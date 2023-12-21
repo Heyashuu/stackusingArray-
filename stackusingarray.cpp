@@ -22,7 +22,7 @@ public:
     }
     bool isempty()
     {
-        size == 0;
+        return size == 0;
     }
     int push(int element)
     {
