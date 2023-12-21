@@ -24,7 +24,7 @@ public:
     {
         return size == 0;
     }
-    int push(int element)
+    void push(int element)
     {
         if (nextIndex == capacity)
         {
